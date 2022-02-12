@@ -192,12 +192,12 @@ def result():
 			time.sleep(2)
 			back()
 		else:
+			gerr = '# HASIL CP ANDA'
+			sol().print(mark(gerr, style='green'))
 			for isi in vin:
 				try:
 					hem = open('CP/'+isi,'r').readlines()
 				except:continue
-				gerr = '# HASIL CP ANDA'
-				sol().print(mark(gerr, style='green'))
 				print(b+isi+' ---> '+str(len(hem))+' Akun'+x)
 			gerr2 = '# PILIH RESULT UNTUK DITAMPILKAN'
 			sol().print(mark(gerr2, style='green'))
@@ -230,12 +230,12 @@ def result():
 			time.sleep(2)
 			back()
 		else:
+			gerr = '# HASIL OK ANDA'
+			sol().print(mark(gerr, style='green'))
 			for isi in vin:
 				try:
 					hem = open('OK/'+isi,'r').readlines()
 				except:continue
-				gerr = '# HASIL OK ANDA'
-				sol().print(mark(gerr, style='green'))
 				print(h+isi+' ---> '+str(len(hem))+' Akun'+x)
 			gerr2 = '# PILIH RESULT UNTUK DITAMPILKAN'
 			sol().print(mark(gerr2, style='green'))
