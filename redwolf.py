@@ -308,7 +308,9 @@ def file():
 			my_files.append(ty)
 	except:pass
 	if len(my_files)==0:
-		pass
+		yy = '# ANDA BELUM MEMILIKI RESULT UNTUK DICEK'
+		sol().print(mark(yy, style='red'))
+		exit()
 	else:
 		cih = 0
 		lol = {}
