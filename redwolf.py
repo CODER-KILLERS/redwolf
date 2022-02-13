@@ -29,7 +29,6 @@ from rich.panel import Panel as nel
 from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
-from fake_useragent import UserAgent
 
 # UA LIST
 try:ugen = open('user.txt','r').readlines()
